@@ -1,0 +1,47 @@
+body {
+    background-color: #eae6dc;
+    font-family: 'Georgia', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+   
+  .card {
+    width: 320px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    overflow: hidden;
+    position: relative;
+  }
+   
+  .card img {
+    width: 100%;
+    display: block;
+    border-bottom: 2px solid #000000;
+  }
+   
+  h1 {
+    margin: 8px 12px 4px 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    color: #1a1a1a;
+  }
+   
+  .descricao {
+    margin: 4px 12px 10px 12px;
+    font-size: 0.85rem;
+    text-align: justify;
+    color: #222222;
+    line-height: 1.3em;
+  }  
+  .habilidades, .caracteristicas {
+    margin: 8px 12px;
+    font-size: 0.85rem;
+    color: #222222;
+  }
+   
