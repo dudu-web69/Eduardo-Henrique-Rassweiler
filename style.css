@@ -1,0 +1,10 @@
+style
+body {
+  background-color: #eae6dc;
+  font-family: 'Georgia', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
